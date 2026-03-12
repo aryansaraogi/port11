@@ -16,16 +16,18 @@ export default function Portfolio() {
         </div>
 
         {/* Right Column - Scrollable Content */}
-        <div className="lg:ml-[50%] lg:w-1/2">
+        <div className="lg:ml-[50%] lg:w-1/2 px-8 lg:px-12">
           {/* Mobile Hero */}
           <div className="lg:hidden">
             <Hero />
           </div>
-          <About />
-          <Experience />
-          <Projects />
-          <Education />
-          <Contact />
+          <div className="flex flex-col gap-24 md:gap-32 lg:gap-40  py-20 md:py-28">
+            <About />
+            <Experience />
+            <Projects />
+            <Education />
+            <Contact />
+          </div>
           <Footer />
         </div>
       </div>
