@@ -14,7 +14,7 @@ const skills = [
   "CI/CD",
   "AWS",
   "Tailwind CSS",
-  "Figma",
+  "Selenium",
 ]
 
 export function About() {
@@ -28,8 +28,7 @@ export function About() {
         <div className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
             I'm a passionate software developer with a love for creating elegant, 
-            efficient solutions to complex problems. My journey in tech began when 
-            I wrote my first line of code, and I've been hooked ever since.
+            efficient, enterprise solutions to complex problems. 
           </p>
           
           <p>

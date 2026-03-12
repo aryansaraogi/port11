@@ -2,9 +2,9 @@ import { GraduationCap, Award } from "lucide-react"
 
 const education = [
   {
-    degree: "Bachelor of Science in Computer Science",
-    school: "University Name",
-    period: "2015 — 2019",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    school: " SRM Institute of Science and Technology",
+    period: "2021 — 2025",
     description:
       "Graduated with honors. Focused on software engineering, algorithms, and data structures. Active member of the Computer Science Club and participated in hackathons.",
   },

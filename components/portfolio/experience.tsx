@@ -13,21 +13,21 @@ const experiences = [
   },
   {
     period: "2021 — 2023",
-    title: "Software Engineer",
-    company: "Startup Inc",
+    title: "Fullstack Developer Intern",
+    company: "Centre for Railway Information Systems",
     companyUrl: "https://example.com",
     description:
-      "Developed and shipped highly interactive web applications for a diverse client base. Collaborated with designers and product managers to implement responsive designs and ensure seamless user experiences.",
-    technologies: ["Vue.js", "Python", "Django", "MongoDB", "Docker"],
+      "Developed and shipped highly interactive web applications for a internal erp protal for there management traines . Collaborated with designers and product managers to implement responsive designs and ensure seamless user experiences.",
+    technologies: ["Angular", "Java", "Git", "MongoDB", "Docker"],
   },
   {
-    period: "2019 — 2021",
-    title: "Junior Developer",
-    company: "Agency Studio",
+    period: "2023 — 2023",
+    title: " Software Developer Intern",
+    company: "Qss Technosoft Pvt Ltd",
     companyUrl: "https://example.com",
     description:
       "Assisted in the development of web applications and gained hands-on experience with modern frameworks. Participated in code reviews and contributed to improving development workflows.",
-    technologies: ["JavaScript", "React", "CSS", "Firebase"],
+    technologies: ["JavaScript", "React", "CSS", "Node.js", "Git"],
   },
 ]
 
