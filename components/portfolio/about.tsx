@@ -5,12 +5,13 @@ const skills = [
   "Next.js",
   "Node.js",
   "Python",
-  "PostgreSQL",
+  "Fastapi",
+  "SQL",
   "MongoDB",
-  "GraphQL",
   "REST APIs",
   "Git",
   "Docker",
+  "CI/CD",
   "AWS",
   "Tailwind CSS",
   "Figma",
@@ -39,8 +40,7 @@ export function About() {
           </p>
           
           <p>
-            When I'm not coding, you can find me contributing to open-source projects, 
-            exploring new technologies, or sharing knowledge through technical writing 
+            When I'm not coding, you can find me exploring new technologies, or sharing knowledge through technical writing 
             and mentorship.
           </p>
 

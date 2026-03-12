@@ -16,7 +16,7 @@ export function Hero() {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-              Your Name
+              Aryan Saraogi
             </h1>
             <p className="text-xl md:text-2xl text-primary font-medium">
               Software Engineer
