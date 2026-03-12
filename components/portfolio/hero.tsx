@@ -4,9 +4,9 @@ import Link from "next/link"
 import { Github, Linkedin, Mail, FileText, ArrowDown } from "lucide-react"
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aryan-saraogi83", label: "LinkedIn" },
+  { icon: Mail, href: "mailto: aryansaraogi@gmail.com", label: "Email" },
 ]
 
 export function Hero() {
