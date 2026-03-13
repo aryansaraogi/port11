@@ -1,10 +1,10 @@
 import { Github, Linkedin, Twitter, Mail } from "lucide-react"
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aryan-saraogi83", label: "LinkedIn" },
+  //{ icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Mail, href: "mailto:aryansaraogi02@gmail.com", label: "Email" },
 ]
 
 export function Footer() {
@@ -14,7 +14,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-sm text-muted-foreground">
             Designed & Built by{" "}
-            <span className="text-foreground font-medium">Your Name</span>
+            <span className="text-foreground font-medium">Aryan Saraogi</span>
           </p>
           
           <div className="flex items-center gap-4">
