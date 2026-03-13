@@ -8,8 +8,8 @@ import { Field, FieldLabel, FieldGroup } from "@/components/ui/field"
 import { Mail, Send, Github, Linkedin, Twitter } from "lucide-react"
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aryan-saraogi83", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ]
 
@@ -62,7 +62,7 @@ export function Contact() {
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Mail className="w-5 h-5 text-primary" />
                 </div>
-                <span>hello@example.com</span>
+                <span>aryansaraogi02@gmail.com</span>
               </a>
             </div>
 
