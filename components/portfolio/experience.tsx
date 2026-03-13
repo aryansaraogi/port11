@@ -8,11 +8,11 @@ const experiences = [
     company: "Cognizant Technology Solutions",
     companyUrl: "https://www.cognizant.com/",
     description:
-      "Build and maintain critical components used to construct modern web applications. Work closely with cross-functional teams to deliver high-quality products that meet business requirements and user needs.",
+      "Currently working as a Software Development Engineer in Test, where I am involved in testing and fixing  web applications for clients in the technology sector. I collaborate with cross-functional teams to design and testing features, optimize performance, and ensure high-quality code through rigorous testing and code reviews.",
     technologies: ["Java", "Selenium", "JavaScript", "React", "Docker", "Git","CI/CD"],
   },
   {
-    period: "2021 — 2023",
+    period: "2024 — 2024",
     title: "Fullstack Developer Intern",
     company: "Centre for Railway Information Systems",
     companyUrl: "https://cris.org.in/",
@@ -26,8 +26,8 @@ const experiences = [
     company: "Qss Technosoft Pvt Ltd",
     companyUrl: "https://www.qsstechnosoft.com/",
     description:
-      "Assisted in the development of web applications and gained hands-on experience with modern frameworks. Participated in code reviews and contributed to improving development workflows.",
-    technologies: ["JavaScript", "React", "CSS", "Node.js", "Git"],
+       "Assisted in the development of web applications and gained hands-on experience with modern frameworks.    Participated in code reviews and contributed to improving development workflows.",
+    technologies: ["JavaScript", "React", "CSS", "Node.js", "Git","Express.js"],
   },
 ]
 
