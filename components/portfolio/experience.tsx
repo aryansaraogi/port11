@@ -3,28 +3,28 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
-    period: "2023 — Present",
-    title: "Senior Software Engineer",
-    company: "Tech Company",
-    companyUrl: "https://example.com",
+    period: "2025 — Present",
+    title: "Progrmammer Analyst Trainee",
+    company: "Cognizant Technology Solutions",
+    companyUrl: "https://www.cognizant.com/",
     description:
       "Build and maintain critical components used to construct modern web applications. Work closely with cross-functional teams to deliver high-quality products that meet business requirements and user needs.",
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+    technologies: ["Java", "Selenium", "JavaScript", "React", "Docker", "Git","CI/CD"],
   },
   {
     period: "2021 — 2023",
     title: "Fullstack Developer Intern",
     company: "Centre for Railway Information Systems",
-    companyUrl: "https://example.com",
+    companyUrl: "https://cris.org.in/",
     description:
-      "Developed and shipped highly interactive web applications for a internal erp protal for there management traines . Collaborated with designers and product managers to implement responsive designs and ensure seamless user experiences.",
-    technologies: ["Angular", "Java", "Git", "MongoDB", "Docker"],
+      "Developed and shipped highly interactive web applications for a internal ERP protal for there management traines . Collaborated with designers and product managers to implement responsive designs and ensure seamless user experiences in a real world project.",
+    technologies: ["Angular","TypeScript", "Java", "Git", "MongoDB", "Docker"],
   },
   {
     period: "2023 — 2023",
     title: " Software Developer Intern",
     company: "Qss Technosoft Pvt Ltd",
-    companyUrl: "https://example.com",
+    companyUrl: "https://www.qsstechnosoft.com/",
     description:
       "Assisted in the development of web applications and gained hands-on experience with modern frameworks. Participated in code reviews and contributed to improving development workflows.",
     technologies: ["JavaScript", "React", "CSS", "Node.js", "Git"],
