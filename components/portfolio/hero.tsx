@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, FileText, ArrowDown } from "lucide-react"
 const socialLinks = [
   { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/aryan-saraogi83", label: "LinkedIn" },
-  { icon: Mail, href: "mailto: aryansaraogi@gmail.com", label: "Email" },
+  { icon: Mail, href: "mailto: aryansaraogi02@gmail.com", label: "Email" },
 ]
 
 export function Hero() {

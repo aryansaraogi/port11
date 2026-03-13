@@ -12,14 +12,14 @@ const education = [
 
 const certifications = [
   {
-    name: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "2023",
+    name: "OCI Certified Gen AI Professional",
+    issuer: "Oracle",
+    date: "2025",
   },
   {
-    name: "Professional Scrum Master I",
-    issuer: "Scrum.org",
-    date: "2022",
+    name: "Oracle AI Vector Search Certified Professional",
+    issuer: "Oracle",
+    date: "2025",
   },
   {
     name: "Google Cloud Professional Developer",
