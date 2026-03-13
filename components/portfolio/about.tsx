@@ -13,7 +13,7 @@ const skills = [
   "Docker",
   "CI/CD",
   "AWS",
-  "Tailwind CSS",
+  "Java",
   "Selenium",
 ]
 
