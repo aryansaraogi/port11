@@ -7,9 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Developer Portfolio | Software Engineer',
+  title: 'Aryan Saraogi | Software Engineer',
   description: 'Full-stack software developer specializing in building exceptional digital experiences. Explore my projects, skills, and professional journey.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

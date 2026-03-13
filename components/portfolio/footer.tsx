@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+import { Github, Linkedin, Twitter, Mail , } from "lucide-react"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
