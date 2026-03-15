@@ -22,9 +22,9 @@ const certifications = [
     date: "2025",
   },
   {
-    name: "Google Cloud Professional Developer",
-    issuer: "Google",
-    date: "2022",
+    name: "Model Context Protocol: Advanced",
+    issuer: "Anthropic",
+    date: "2026",
   },
 ]
 
