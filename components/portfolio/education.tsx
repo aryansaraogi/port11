@@ -21,8 +21,7 @@ const certifications = [
     issuer: "Oracle",
     date: "2025",
   },
-  {
-    
+  { 
     name: "Model Context Protocol: Advanced",
     issuer: "Anthropic",
     date: "2026",
