@@ -74,10 +74,10 @@ const otherProjects = [
     demo: "https://example.com",
   },
   {
-    title: "Code Snippet Manager",
+    title: "Java Method Explorer",
     description:
-      "Organize and search code snippets with syntax highlighting and tags.",
-    technologies: ["Electron", "React", "LowDB"],
+    "Oragnized collection of commonly used Java methods with examples, designed to help developers quickly find  Java functionalities.",
+    technologies: ["React", "Tailwind CSS", "Json"],
     github: "https://github.com",
   },
 ]
