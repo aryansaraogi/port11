@@ -59,10 +59,10 @@ const otherProjects = [
     demo: "https://example.com",
   },
   {
-    title: "Budget Tracker",
+    title: "PepperFry Automation ",
     description:
       "Personal finance tracker with expense categorization, charts, and budget alerts.",
-    technologies: ["React Native", "SQLite", "Chart.js"],
+    technologies: ["Selenium", "Java", "Maven"],
     github: "https://github.com",
   },
   {
@@ -71,7 +71,6 @@ const otherProjects = [
       "Search and save recipes based on available ingredients. Includes nutritional information.",
     technologies: ["Vue.js", "Spoonacular API", "Firebase"],
     github: "https://github.com",
-    demo: "https://example.com",
   },
   {
     title: "Java Method Explorer",
@@ -79,6 +78,7 @@ const otherProjects = [
     "Oragnized collection of commonly used Java methods with examples, designed to help developers quickly find  Java functionalities.",
     technologies: ["React", "Tailwind CSS", "Json"],
     github: "https://github.com",
+    demo: "https://example.com",
   },
 ]
 
