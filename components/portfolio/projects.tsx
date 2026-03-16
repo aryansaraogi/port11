@@ -6,9 +6,9 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 
 const featuredProjects = [
   {
-    title: "E-Commerce Platform",
+    title: "PerdictCare - Ml Based Healthcare Platform",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built with modern technologies for scalability and performance.",
+      "A full-stack machine learning-based healthcare platform for predictive analytics and patient care for Chronic Heart Diseases, Diabetes and Stroke using.",
     technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
     github: "https://github.com",
     demo: "https://example.com",
