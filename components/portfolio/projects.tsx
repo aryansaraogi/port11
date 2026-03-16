@@ -8,8 +8,8 @@ const featuredProjects = [
   {
     title: "PerdictCare - Ml Based Healthcare Platform",
     description:
-      "A full-stack machine learning-based healthcare platform for predictive analytics and patient care for Chronic Heart Diseases, Diabetes and Stroke using.",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
+      "A full-stack machine learning-based healthcare platform for predictive analytics and patient care for Chronic Heart Diseases, Diabetes and Stroke.",
+    technologies: ["Next.js", "TypeScript", "Machine Learning", "Flask", "Python","Email.js"],
     github: "https://github.com",
     demo: "https://example.com",
     image: "/placeholder-project-1.jpg",
