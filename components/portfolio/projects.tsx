@@ -66,19 +66,20 @@ const otherProjects = [
     github: "https://github.com",
   },
   {
-    title: "Recipe Finder",
+    title: "LocalSpots",
     description:
-      "Search and save recipes based on available ingredients. Includes nutritional information.",
-    technologies: ["Vue.js", "Spoonacular API", "Firebase"],
+      " explore, mark, and manage locations on an interactive map",
+    technologies: ["React", "Leaflet", "Tailwind CSS" , "Custom Hooks"],
     github: "https://github.com",
+    demo: "https://localspots.netlify.app/",
   },
   {
     title: "Java Method Explorer",
     description:
     "Oragnized collection of commonly used Java methods with examples, designed to help developers quickly find  Java functionalities.",
     technologies: ["React", "Tailwind CSS", "Json"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/aryansaraogi/java-methods",
+    demo: "https://javamethods.netlify.app/",
   },
 ]
 
