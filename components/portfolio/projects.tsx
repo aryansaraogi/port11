@@ -61,15 +61,15 @@ const otherProjects = [
   {
     title: "PepperFry Automation ",
     description:
-      "Personal finance tracker with expense categorization, charts, and budget alerts.",
+      "Automated testing framework for PepperFry's e-commerce platform, Testing flow of buying giftcards and bookshelf.",
     technologies: ["Selenium", "Java", "Maven"],
     github: "https://github.com",
   },
   {
     title: "LocalSpots",
     description:
-      " explore, mark, and manage locations on an interactive map",
-    technologies: ["React", "Leaflet", "Tailwind CSS" , "Custom Hooks"],
+      "A platform to explore, mark, and manage locations on an interactive map with feature like marking spots and notes .",
+    technologies: ["React", "Leaflet", "Custom Hooks" , "Tailwind CSS"  ],
     github: "https://github.com",
     demo: "https://localspots.netlify.app/",
   },
