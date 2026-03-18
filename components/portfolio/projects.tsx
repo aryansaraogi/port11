@@ -43,6 +43,14 @@ const otherProjects = [
     github: "https://github.com",
     demo: "https://example.com",
   },
+    {
+    title: "LocalSpots",
+    description:
+      "A platform to explore, mark, and manage locations on an interactive map with feature like marking spots and notes .",
+    technologies: ["React", "Leaflet", "Custom Hooks" , "Tailwind CSS"  ],
+    github: "https://github.com",
+    demo: "https://localspots.netlify.app/",
+  },
   {
     title: "Portfolio Generator",
     description:
@@ -64,14 +72,6 @@ const otherProjects = [
       "Automated testing framework for PepperFry's e-commerce platform, Testing flow of buying giftcards and bookshelf.",
     technologies: ["Selenium", "Java", "Maven"],
     github: "https://github.com",
-  },
-  {
-    title: "LocalSpots",
-    description:
-      "A platform to explore, mark, and manage locations on an interactive map with feature like marking spots and notes .",
-    technologies: ["React", "Leaflet", "Custom Hooks" , "Tailwind CSS"  ],
-    github: "https://github.com",
-    demo: "https://localspots.netlify.app/",
   },
   {
     title: "Java Method Explorer",
