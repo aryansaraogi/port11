@@ -59,10 +59,10 @@ const otherProjects = [
     github: "https://github.com",
   },
   {
-    title: "Markdown Editor",
+    title: "EasyML",
     description:
-      "A minimal markdown editor with live preview, syntax highlighting, and export options.",
-    technologies: ["TypeScript", "React", "Monaco Editor"],
+      "A platform that has a collection of pre-trained machine learning models for various tasks like Spam Detection .",
+    technologies: ["TypeScript", "React","Machine Learning", "Email.js" , "Tailwind CSS"],
     github: "https://github.com",
     demo: "https://example.com",
   },
