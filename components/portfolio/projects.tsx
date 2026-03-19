@@ -61,7 +61,7 @@ const otherProjects = [
   {
     title: "EasyML",
     description:
-      "A platform that has a collection of pre-trained machine learning models for various tasks like Spam Detection .",
+      "A platform that has a collection of pre-trained machine learning models for various tasks like Spam Detection etc.",
     technologies: ["TypeScript", "React","Machine Learning", "Email.js" , "Tailwind CSS"],
     github: "https://github.com",
     demo: "https://example.com",
