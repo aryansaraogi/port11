@@ -23,7 +23,7 @@ const featuredProjects = [
     demo: "https://example.com",
     image: "/placeholder-project-2.jpg",
   },
-  {
+ /* {
     title: "Real-Time Collaboration Tool",
     description:
       "A collaborative workspace application enabling real-time document editing, video conferencing, and project management. Supports multiple users with conflict resolution.",
@@ -31,7 +31,7 @@ const featuredProjects = [
     github: "https://github.com",
     demo: "https://example.com",
     image: "/placeholder-project-3.jpg",
-  },
+  }, */
 ]
 
 const otherProjects = [
@@ -52,11 +52,12 @@ const otherProjects = [
     demo: "https://localspots.netlify.app/",
   },
   {
-    title: "Portfolio Generator",
+    title: "Docs.",
     description:
-      "A CLI tool that generates customizable portfolio websites from a simple configuration file.",
-    technologies: ["Node.js", "Handlebars", "CLI"],
-    github: "https://github.com",
+      "A sleek, interactive document card manager. Cards are draggable on desktop, fully responsive across all devices,",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/aryansaraogi/Docs.",
+    demo: "https://docs-aryansaraogi.vercel.app/",
   },
   {
     title: "EasyML",
