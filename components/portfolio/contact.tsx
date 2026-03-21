@@ -8,7 +8,6 @@ import { Field, FieldLabel, FieldGroup } from "@/components/ui/field"
 import { Mail, Send, Github, Linkedin, Twitter, CheckCircle, AlertCircle } from "lucide-react"
 import emailjs from "@emailjs/browser"
 
-// 🔧 Replace these with your EmailJS credentials
 const EMAILJS_SERVICE_ID = "service_9hs1die"
 const EMAILJS_TEMPLATE_ID = "template_vjsmz2h"
 const EMAILJS_PUBLIC_KEY = "up7Peaw4yhzp7_HRq"
