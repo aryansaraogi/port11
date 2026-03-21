@@ -47,7 +47,7 @@ const otherProjects = [
     title: "Docs.",
     description:
       "A sleek, interactive document card manager. Cards are draggable on desktop, fully responsive across all devices,",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React","Framer Motion","Tailwind CSS",],
     github: "https://github.com/aryansaraogi/Docs.",
     demo: "https://docs-aryansaraogi.vercel.app/",
   },
@@ -55,7 +55,7 @@ const otherProjects = [
     title: "LocalSpots",
     description:
       "A platform to explore, mark, and manage locations on an interactive map with feature like marking spots and notes .",
-    technologies: ["React", "Leaflet", "Custom Hooks" , "Tailwind CSS"  ],
+    technologies: ["React", "Leaflet", "Tailwind CSS"  ],
     github: "https://github.com",
     demo: "https://localspots.netlify.app/",
   },
