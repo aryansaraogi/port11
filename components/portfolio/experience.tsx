@@ -18,7 +18,7 @@ const experiences = [
     companyUrl: "https://cris.org.in/",
     description:
       "Developed and shipped highly interactive web applications for a internal ERP protal for there management traines . Collaborated with designers and product managers to implement responsive designs and ensure seamless user experiences in a real world project.",
-    technologies: ["Angular","TypeScript", "Java", "Git", "MongoDB", "Docker"],
+    technologies: ["Angular","TypeScript", "Java", "Git",  "Docker"],
   },
   {
     period: "2023 — 2023",
