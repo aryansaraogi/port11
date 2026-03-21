@@ -43,14 +43,6 @@ const otherProjects = [
     github: "https://github.com",
     demo: "https://example.com",
   },
-    {
-    title: "LocalSpots",
-    description:
-      "A platform to explore, mark, and manage locations on an interactive map with feature like marking spots and notes .",
-    technologies: ["React", "Leaflet", "Custom Hooks" , "Tailwind CSS"  ],
-    github: "https://github.com",
-    demo: "https://localspots.netlify.app/",
-  },
   {
     title: "Docs.",
     description:
@@ -59,6 +51,15 @@ const otherProjects = [
     github: "https://github.com/aryansaraogi/Docs.",
     demo: "https://docs-aryansaraogi.vercel.app/",
   },
+    {
+    title: "LocalSpots",
+    description:
+      "A platform to explore, mark, and manage locations on an interactive map with feature like marking spots and notes .",
+    technologies: ["React", "Leaflet", "Custom Hooks" , "Tailwind CSS"  ],
+    github: "https://github.com",
+    demo: "https://localspots.netlify.app/",
+  },
+  
   {
     title: "EasyML",
     description:
