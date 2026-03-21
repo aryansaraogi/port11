@@ -5,7 +5,13 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Field, FieldLabel, FieldGroup } from "@/components/ui/field"
-import { Mail, Send, Github, Linkedin, Twitter } from "lucide-react"
+import { Mail, Send, Github, Linkedin, Twitter, CheckCircle, AlertCircle } from "lucide-react"
+import emailjs from "@emailjs/browser"
+
+// 🔧 Replace these with your EmailJS credentials
+const EMAILJS_SERVICE_ID = "service_9hs1die"
+const EMAILJS_TEMPLATE_ID = "template_vjsmz2h"
+const EMAILJS_PUBLIC_KEY = "up7Peaw4yhzp7_HRq"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
@@ -20,21 +26,36 @@ export function Contact() {
     message: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    setFormData({ name: "", email: "", message: "" })
-    
-    // Reset success message after 5 seconds
-    setTimeout(() => setIsSubmitted(false), 5000)
+    setStatus("idle")
+
+    try {
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_name: "Aryan",
+        },
+        EMAILJS_PUBLIC_KEY
+      )
+
+      setStatus("success")
+      setFormData({ name: "", email: "", message: "" })
+      setTimeout(() => setStatus("idle"), 5000)
+    } catch (error: any) {
+  console.error("EmailJS status:", error?.status)
+  console.error("EmailJS text:", error?.text)
+  console.error("EmailJS full:", JSON.stringify(error))
+  setStatus("error")
+  setTimeout(() => setStatus("idle"), 5000)
+}
   }
 
   return (
@@ -43,7 +64,7 @@ export function Contact() {
         <h2 className="text-sm uppercase tracking-widest text-primary font-medium mb-4">
           Contact
         </h2>
-        
+
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Left Column - Text */}
           <div className="space-y-6">
@@ -53,10 +74,10 @@ export function Contact() {
             <p className="text-muted-foreground leading-relaxed">
               {"I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to say hi — my inbox is always open."}
             </p>
-            
+
             <div className="space-y-4 pt-4">
               <a
-                href="mailto:hello@example.com"
+                href="mailto:aryansaraogi02@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -92,9 +113,7 @@ export function Contact() {
                   type="text"
                   placeholder="Your name"
                   value={formData.name}
-                  onChange={(e) =>
-                    setFormData({ ...formData, name: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
                   className="bg-card border-border focus:border-primary"
                 />
@@ -107,9 +126,7 @@ export function Contact() {
                   type="email"
                   placeholder="your@email.com"
                   value={formData.email}
-                  onChange={(e) =>
-                    setFormData({ ...formData, email: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
                   className="bg-card border-border focus:border-primary"
                 />
@@ -122,14 +139,26 @@ export function Contact() {
                   placeholder="Your message..."
                   rows={5}
                   value={formData.message}
-                  onChange={(e) =>
-                    setFormData({ ...formData, message: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required
                   className="bg-card border-border focus:border-primary resize-none"
                 />
               </Field>
             </FieldGroup>
+
+            {status === "success" && (
+              <div className="flex items-center gap-2 text-sm text-green-600 bg-green-50 dark:bg-green-950/30 dark:text-green-400 px-4 py-3 rounded-lg">
+                <CheckCircle className="w-4 h-4 shrink-0" />
+                <span>{"Message sent! I'll get back to you soon."}</span>
+              </div>
+            )}
+
+            {status === "error" && (
+              <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 dark:bg-red-950/30 dark:text-red-400 px-4 py-3 rounded-lg">
+                <AlertCircle className="w-4 h-4 shrink-0" />
+                <span>{"Something went wrong. Please try again or email me directly."}</span>
+              </div>
+            )}
 
             <Button
               type="submit"
@@ -138,8 +167,6 @@ export function Contact() {
             >
               {isSubmitting ? (
                 "Sending..."
-              ) : isSubmitted ? (
-                "Message Sent!"
               ) : (
                 <>
                   Send Message
