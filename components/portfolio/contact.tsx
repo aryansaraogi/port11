@@ -8,9 +8,10 @@ import { Field, FieldLabel, FieldGroup } from "@/components/ui/field"
 import { Mail, Send, Github, Linkedin, Twitter, CheckCircle, AlertCircle } from "lucide-react"
 import emailjs from "@emailjs/browser"
 
-const EMAILJS_SERVICE_ID = "service_9hs1die"
-const EMAILJS_TEMPLATE_ID = "template_vjsmz2h"
-const EMAILJS_PUBLIC_KEY = "up7Peaw4yhzp7_HRq"
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/aryansaraogi", label: "GitHub" },
