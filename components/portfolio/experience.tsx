@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 const experiences = [
   {
     period: "2025 — Present",
-    title: "Progrmammer Analyst Trainee",
+    title: "Programmer Analyst Trainee",
     company: "Cognizant Technology Solutions",
     companyUrl: "https://www.cognizant.com/",
     description:

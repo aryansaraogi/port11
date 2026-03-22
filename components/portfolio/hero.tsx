@@ -48,6 +48,13 @@ export function Hero() {
               <span className="w-8 h-px bg-muted-foreground group-hover:w-16 group-hover:bg-foreground transition-all" />
               <span className="uppercase tracking-widest">Projects</span>
             </Link>
+             <Link 
+              href="#education" 
+              className="flex items-center gap-3 group hover:text-foreground transition-colors w-fit"
+            >
+              <span className="w-8 h-px bg-muted-foreground group-hover:w-16 group-hover:bg-foreground transition-all" />
+              <span className="uppercase tracking-widest">Education</span>
+            </Link>
             <Link 
               href="#contact" 
               className="flex items-center gap-3 group hover:text-foreground transition-colors w-fit"
